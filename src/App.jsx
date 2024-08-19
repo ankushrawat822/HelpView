@@ -3,7 +3,7 @@ import {Router , Route , Routes} from 'react-router-dom'
 // importing components and pages
 import Navbar from "./components/common/Navbar"
 import Home from './components/pages/Home'
-import Courses from "./components/pages/Courses"
+
 import Contact from "./components/pages/Contact"
 
 
@@ -31,7 +31,7 @@ function App() {
        
         
         <Route path="/regular-meet" element={<RegularMeet></RegularMeet>} />
-        <Route path="/courses" element={<Courses></Courses>} />
+        
         
         <Route path="/tongue-twister" element={<TongueTwister></TongueTwister>} />
         <Route path="/breathing-exercise" element={<Breathing></Breathing>} />

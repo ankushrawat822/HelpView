@@ -8,19 +8,6 @@ import sliderBluevector from '../../../images/careers/slider-blue-vector.svg'
 import sliderTopImg from '../../../images/careers/googlemeet1.png'
 import { HiArrowRight } from 'react-icons/hi'
 
-import sliderImg1 from '../../../images/solution/business-int/business-int-1.svg'
-import no1 from '../../../images/solution/business-int/no1.svg'
-import no2 from '../../../images/solution/business-int/no2.svg'
-import no3 from '../../../images/solution/business-int/no3.svg'
-import no4 from '../../../images/solution/business-int/no4.svg'
-
-
-import no5 from '../../../images/solution/business-int/nos5.svg'
-import no6 from '../../../images/solution/business-int/nos6.svg'
-import no7 from '../../../images/solution/business-int/nos7.svg'
-import no8 from '../../../images/solution/business-int/nos8.svg'
-
-import tick from '../../../images/solution/business-int/tick.svg'
 
 import twIcon from '../../../images/solution/custom-app/tw.svg'
 import instaIcon from '../../../images/solution/custom-app/insta.svg'

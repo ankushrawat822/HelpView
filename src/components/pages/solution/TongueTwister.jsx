@@ -1,9 +1,9 @@
 import React , {useState , useEffect} from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css";
-import tickIcon from '../../../images/solution/custom-app/tick.svg'
-import utilityBlueBg from '../../../images/solution/utility/utility-blue-bg.svg'
-import utilityFrontImg from '../../../images/solution/utility/utility-front-bg.svg'
+// import tickIcon from '../../../images/solution/custom-app/tick.svg'
+// import utilityBlueBg from '../../../images/solution/utility/utility-blue-bg.svg'
+// import utilityFrontImg from '../../../images/solution/utility/utility-front-bg.svg'
 import twIcon from '../../../images/solution/custom-app/tw.svg'
 import instaIcon from '../../../images/solution/custom-app/insta.svg'
 import inIcon from '../../../images/solution/custom-app/in.svg'
