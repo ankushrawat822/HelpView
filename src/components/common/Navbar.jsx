@@ -86,6 +86,8 @@ const [closeMenuMobile , setCloseMenuMObile] = useState(false)
                         <li onMouseEnter={()=> setShowSolutionMenu(true)} onMouseLeave={()=> setShowSolutionMenu(false)} className='flex items-center justify-center  h-[93px]'>Features  <MdOutlineKeyboardArrowDown></MdOutlineKeyboardArrowDown> {/* home drop down menues start */}
                        { showSolutionMenu && <div onMouseEnter={()=> setShowSolutionMenu(true)} className='home-nav-desk-animation-links absolute z-10 top-[90px] bg-white '>
                             <ul className=' flex flex-col items-center justify-center gap-2 p-4 emerging-tech-white-div-drop-shadow text-[18px]'>
+
+                            <li className='cursor-pointer px-2 py-1 rounded-[6px] hover:w-full hover:text-center hover:bg-[#E8E8E8]'><Link to='/technical-interview'>Technical Interview</Link></li> 
                              
                                 <li className='cursor-pointer px-2 py-1 rounded-[6px] hover:w-full hover:text-center hover:bg-[#E8E8E8]'><Link to='/regular-meet'>Regular Meet</Link></li> 
                                

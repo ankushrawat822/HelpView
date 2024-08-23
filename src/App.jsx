@@ -15,6 +15,8 @@ import Breathing from "./components/pages/solution/Breathing"
 // fluent speech
 import Articulation from "./components/pages/solution/Articulation"
 
+import TechnicalInterview from "./features/technicalInterview/TechnicalInterview"
+
 
 
 import Footer from './components/common/Footer'
@@ -26,9 +28,10 @@ function App() {
 
    <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<div><Home></Home><Footer></Footer></div>} />
+        <Route path="/" element={<div><Home></Home><Footer></Footer></div>} /> 
         <Route path="/contact" element={<Contact></Contact>} />
        
+        <Route path="/technical-interview" element={<TechnicalInterview></TechnicalInterview>} />
         
         <Route path="/regular-meet" element={<RegularMeet></RegularMeet>} />
         
