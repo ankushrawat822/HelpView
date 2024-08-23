@@ -15,8 +15,7 @@ import Breathing from "./components/pages/solution/Breathing"
 // fluent speech
 import Articulation from "./components/pages/solution/Articulation"
 
-import TechnicalInterview from "./features/technicalInterview/TechnicalInterview"
-
+import UserSelfIntroInfoForm from "./features/Self-intro/pages/info-page"
 
 
 import Footer from './components/common/Footer'
@@ -40,7 +39,7 @@ function App() {
         <Route path="/breathing-exercise" element={<Breathing></Breathing>} />
        
         <Route path="/articulation-exercise" element={<Articulation></Articulation>} />
-
+        <Route path="/selfintro" element={<UserSelfIntroInfoForm/>} />
 
         <Route path="*" element={<Error />} />
     </Routes>
